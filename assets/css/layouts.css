@@ -1,0 +1,15 @@
+/*
+* Codelander - One Page Template
+* Version: 1.1
+* Copyright 2014
+* Created by: DamterThemes
+* URL: https://wrapbootstrap.com/user/damterthemes
+* Designed and built based on Twitter Bootstrap 3. 
+*/
+
+body { font-family: 'Lato', sans-serif; font-weight: 300; }
+@font-face { font-family: 'Lato'; src: url('../fonts/lato/lato-light-webfont.eot'); src: url('../fonts/lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-light-webfont.woff') format('woff'), url('../fonts/lato/lato-light-webfont.ttf') format('truetype'), url('../fonts/lato/lato-light-webfont.svg#latolight') format('svg'); font-weight: normal; font-style: normal; }
+.row { margin-right: 0; margin-left: 0; }
+#title-section { background-color:#57c2f0; color:#ffffff; }
+#title-section h1 { text-align:center; padding:20px 5px 30px 5px; }
+#layouts-section { padding:50px 5px 60px 5px; }

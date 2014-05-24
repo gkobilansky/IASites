@@ -1,0 +1,41 @@
+/*
+* Codelander - One Page Template
+* Version: 1.1
+* Copyright 2014
+* Created by: DamterThemes
+* URL: https://wrapbootstrap.com/user/damterthemes
+* Designed and built based on Twitter Bootstrap 3. 
+*/
+
+/*
+**********************************************
+Internet Explorer Styles
+**********************************************
+*/
+.btn { -ms-transition: all 0.2s ease-in-out 0.2s; }
+.btn:focus, .btn:hover { -ms-transition: all 0.2s ease-in-out 0.2s; }
+.navbar-default .navbar-toggle { -ms-transition: all 0.3s ease-in-out; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { -ms-transition: all 0.3s ease-in-out; }
+h3.team-title { -ms-transition: all 0.4s ease-in-out; }
+.team-user:hover h3.team-title { -ms-transition: all 0.4s ease-in-out; }
+.team-user:hover a.team-icon-facebook, .team-user:hover a.team-icon-twitter, .team-user:hover a.team-icon-linkedin { -ms-transition: all 0.4s ease-in-out; }
+.panel-default > .panel-heading { -ms-transition: all 0.3s ease-in-out; }
+.panel-default > .panel-heading:hover { -ms-transition: all 0.3s ease-in-out; }
+.panel-default .faq-icon-collapse i { -ms-transition: all 0.3s ease-in-out; }
+.panel-default .faq-icon-collapse i:hover { -ms-transition: all 0.3s ease-in-out; }
+.service-box img { -ms-transition: all 0.3s ease-in-out; }
+.service-box img:hover { -ms-transition: all 0.3s ease-in-out; }
+#our-works-section .work-description-container { -ms-transition: all 0.2s linear; }
+#our-works-section .thumbnail:hover .work-description-container { -ms-transition: all 0.4s ease-in-out; }
+.isotope .isotope-item { -ms-transition-property: -moz-transform, opacity;  }
+.isotope-item { -ms-transition-duration: 0.8s; }
+#our-works-section .work-description-container { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+#our-works-section .thumbnail:hover .work-description-container { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); }
+.carousel-testimonials-control { -ms-transition: all 0.3s ease-in-out; }
+.carousel-testimonials-control:hover { -ms-transition: all 0.3s ease-in-out; }
+.carousel.carousel-fade .item { -ms-transition: opacity 0.5s; }
+.contact-details-icon { -ms-transition: all 0.3s ease-in-out; }
+.contact-details-icon:hover { -ms-transition: all 0.3s ease-in-out; -ms-transform: rotate(360deg); } 
+.service-box img:hover { -ms-transform: rotate(360deg); }
+.to-top { -ms-transition: all 0.3s ease-in-out; }
+.to-top:hover { -ms-transition: all 0.3s ease-in-out; }

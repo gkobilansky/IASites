@@ -1,0 +1,140 @@
+/*
+* Codelander - One Page Template
+* Version: 1.1
+* Copyright 2014
+* Created by: DamterThemes
+* URL: https://wrapbootstrap.com/user/damterthemes
+* Designed and built based on Twitter Bootstrap 3. 
+*/
+
+/*
+**********************************************
+Desktop
+**********************************************
+*/
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+.call-to-action-home { background-image: url("../img/bg-call-to-action-home-3000px.jpg"); background-repeat: no-repeat; background-position: center 100%; }
+#testimonials-section { background: url("../img/slides/testimonials-slides/bg-slides-2560px.jpg") #433c4c no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#call-to-action-section { background: url("../img/bg-blurred-2560px.jpg") #272324 no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+}
+
+/*
+**********************************************
+Tablet / Phone
+**********************************************
+*/
+
+@media (min-width: 140px) and (max-width: 995px) {
+.call-to-action-home { max-width: 2560px; background-color: #030504; background-image: url("../img/bg-call-to-action-home-3000px.jpg"); background-repeat: no-repeat; background-position: center 100%; color: white; width: 100%; }
+}
+
+@media (min-width: 320px) and (max-width: 995px) {
+.call-to-action-home-content { padding: 40px 5px 0 5px; }
+.call-to-action-home-content h1 { font-size:3em; }
+.call-to-action-home-content h3 { font-size:1.2em; padding-bottom:10px; }
+}
+
+@media (min-width: 100px) and (max-width: 995px) {
+#subscription-section { padding: 60px 0 60px 0; }
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+#testimonials-section p { font-size: 1.6em; }	
+}
+
+@media screen and (max-width: 974px) {
+.service-box .square { float: none; margin: 0 auto; text-align: center; }
+#services-section h4 { text-align: center; }
+#services-section p { text-align: center; }
+}
+
+@media (min-width: 140px) and (max-width: 800px) {
+.to-top { display: none !important; }
+.input-group { margin-bottom: 3px !important; padding-bottom: 3px !important; }
+.contact-form { width: 100%; }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+#our-works-section .work-description-container { background: rgba(0,0,0,0.7); opacity:1; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+#our-works-section .work-description-container .work-description-content { margin-top: 30%; } 
+#our-works-section .work-description-container .work-description-content h5 { display:none !important; }
+#our-works-section .work-description-container .work-description-content p { display:none !important; }
+}
+
+@media (max-width: 767px) {
+#our-works-section .thumbnail img { min-width: 100%; height: auto; }
+.navbar-default .navbar-nav > li > a { padding: 5px 5px 0 5px; height: 35px; margin: 5px 5px 0 5px; }
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+.feature-box { border-right: none !important; }
+#subscription-section img { width:50%; }
+.carousel-indicators { bottom: 0; }
+.testimonial { min-height:380px; padding: 5px 5px 30px 5px; }
+}
+
+@media (min-width: 100px) and (max-width: 546px) {
+.plan-1.col-xs-6, .plan-2.col-xs-6, .plan-3.col-xs-6, .plan-4.col-xs-6  { width: 100% !important; }
+}
+
+@media (min-width: 140px) and (max-width: 600px) {
+#SendButton { margin-top:5px; }
+.well { margin-bottom: 20px !important; }
+.plan-title { font-size:1.5em; }
+.description-price { font-size:1.8em; font-weight:300; }
+.plan-sign-up .btn { font-size:1.8em; }
+.testimonial { min-height:280px; padding: 5px 5px 30px 5px; }
+#testimonials-section { padding: 80px 0 80px 0; }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+h1.section-title { font-size:1.8em; }
+h1.section-title-white { font-size:1.8em; }
+h2.section-subtitle { font-size:1.5em; }
+.description-price { font-size:1.3em; font-weight:300; }
+#call-to-action-section h1 { font-size: 1.8em; }
+#our-works-section .work-description-container { background: rgba(0,0,0,0.7); opacity:1; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+#our-works-section .work-description-container .work-description-content { margin-top: 30%; } 
+#our-works-section .work-description-container .work-description-content h5 { display:none !important; }
+#our-works-section .work-description-container .work-description-content p { display:none !important; }
+}
+
+@media (min-width: 140px) and (max-width: 490px) {
+#our-works-section .work-description-container { background: rgba(0,0,0,0.7); opacity:1; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+#our-works-section .work-description-container .work-description-content { margin-top: 25%; } 
+#our-works-section .work-description-container .work-description-content h5 { display:none; }
+#our-works-section .work-description-container .work-description-content p { display:none; }
+}
+
+@media (min-width: 100px) and (max-width: 486px) {
+.team-user.col-xs-6 { width: 100% !important; }
+}
+
+@media (min-width: 140px) and (max-width: 480px) {
+h1.section-title { font-size:1.5em; }
+h1.section-title-white { font-size:1.5em; }
+h2.section-subtitle { font-size:1.2em; }
+.description-price { font-size:1.2em; font-weight:300; }
+#our-works-section .work-description-container .work-description-content h5 { display:none !important; }
+#our-works-section .work-description-container .work-description-content p { display:none !important; }
+#our-works-section .btn { margin-bottom:5px; }
+.testimonial h3 { font-size: 1.5em; }
+#call-to-action-section h1 { font-size: 1.5em; }
+.contact-details { width: 100%; }
+}
+
+@media (min-width: 140px) and (max-width: 410px) {
+.service-box.col-xs-6 { width: 100% !important; }
+}
+
+@media (min-width: 140px) and (max-width: 400px) {
+.call-to-action-home-content h1 { font-size:2em; font-weight: 400; }
+.call-to-action-home-content h3 { font-size:1em; padding-bottom:10px; }
+.call-to-action-home-content .btn { margin-bottom: 10px; }
+}
+
+@media (min-width: 140px) and (max-width: 320px) {
+#our-works-section .work-description-container .work-description-content .btn { border-radius: 50%; width: 25px; height: 25px; line-height: 20px; margin: 0; padding: 0; font-size:1em; }
+#testimonials-section p { font-size: 1.3em; }
+}
